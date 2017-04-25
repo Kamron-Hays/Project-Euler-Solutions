@@ -30,14 +30,17 @@ function processInput()
 
   if ( !isInteger(value) )
   {
+    resultElement.style.color = "red";
     resultElement.innerHTML = "Error: Please enter an integer value.";
   }
   else if ( value < 0 || value > 1000000 )
   {
-    resultElement.innerHTML = "Error: Please enter an integer between 0 and 1000.";
+    resultElement.style.color = "red";
+    resultElement.innerHTML = "Error: Please enter an integer between 0 and 1000000.";
   }
   else
   {
+    resultElement.style.color = "black";
     resultElement.innerHTML = "Result: " + sumMultiplesOf3and5(value);
   }
 }
