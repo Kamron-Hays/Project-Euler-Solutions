@@ -1,7 +1,7 @@
 # My Project Euler Solutions
 Problem|Title|Solution
 -------|-----|--------
-1|[Multiples of 3 and 5](https://projecteuler.net/problem=1)|[Web](https://kamron-hays.github.io/project-euler-solutions/problem1/index.html) [Javascript](problem1/problem1.js)
-2|[Even Fibonacci numbers](https://projecteuler.net/problem=2)|[Web](https://kamron-hays.github.io/project-euler-solutions/problem2/index.html) [Javascript](problem2/problem2.js)
-3|[Largest prime factor](https://projecteuler.net/problem=3)|[Web](https://kamron-hays.github.io/project-euler-solutions/problem3/index.html) [Javascript](problem3/problem3.js)
+1|[Multiples of 3 and 5](https://projecteuler.net/problem=1)|[Web](https://kamron-hays.github.io/Project-Euler-Solutions/001/index.html) [Javascript](001/001.js)
+2|[Even Fibonacci numbers](https://projecteuler.net/problem=2)|[Web](https://kamron-hays.github.io/Project-Euler-Solutions/002/index.html) [Javascript](002/002.js)
+3|[Largest prime factor](https://projecteuler.net/problem=3)|[Web](https://kamron-hays.github.io/Project-Euler-Solutions/problem3/index.html) [Javascript](003/003.js)
 ![Project Euler Badge](https://projecteuler.net/profile/kamron.hays.png)
