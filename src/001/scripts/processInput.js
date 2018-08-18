@@ -23,7 +23,7 @@ function processInput()
   else
   {
     resultElement.style.color = "black";
-    resultElement.innerHTML = "Result: " + sumMultiplesOf3and5(value);
+    resultElement.innerHTML = "Result: " + sumMultiples([3,5], value);
   }
 }
 
