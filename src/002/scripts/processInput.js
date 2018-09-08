@@ -23,7 +23,7 @@ function processInput()
   else
   {
     resultElement.style.color = "black";
-    resultElement.innerHTML = "Result: " + sumEvenFibonacci(value);
+    resultElement.innerHTML = "Result: " + SumEvenFibonacci(value);
   }
 }
 
