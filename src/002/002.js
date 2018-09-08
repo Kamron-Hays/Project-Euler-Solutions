@@ -3,9 +3,9 @@
 // 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
 // By considering the terms in the Fibonacci sequence whose values do not exceed the
 // specified number (four million maximum), find the sum of the even-valued terms.
-function sumEvenFibonacci(number)
+function SumEvenFibonacci(number)
 {
-  var terms = [1, 1];
+  var terms = [1, 2];
   var sum = 0;
 
   while ( terms[0] < number )
@@ -20,3 +20,8 @@ function sumEvenFibonacci(number)
 
   return sum;
 }
+
+console.log( SumEvenFibonacci(0) == 0 );
+console.log( SumEvenFibonacci(8) == 2 );
+console.log( SumEvenFibonacci(89) == 44 );
+console.log( SumEvenFibonacci(4000000) == 4613732 );
