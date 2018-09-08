@@ -32,16 +32,18 @@ int SumMultiples(vector<int> numbers, int max)
     return sum;
 }
 
+void Test(bool term) { cout << (term ? "true" : "false") << endl; }
+
 int main()
 {
     vector<int> ary0 = { };
     vector<int> ary1 = { 3 };
     vector<int> ary2 = { 5 };
     vector<int> ary3 = { 3, 5 };
-    cout << (SumMultiples(ary0, 10) == 0 ? "pass" : "fail") << endl;
-    cout << (SumMultiples(ary1, 10) == 18 ? "pass" : "fail") << endl;
-    cout << (SumMultiples(ary2, 10) == 5 ? "pass" : "fail") << endl;
-    cout << (SumMultiples(ary3, 10) == 23 ? "pass" : "fail") << endl;
-    cout << (SumMultiples(ary3, 1000) == 233168 ? "pass" : "fail") << endl;
+    Test( SumMultiples(ary0, 10) == 0 );
+    Test( SumMultiples(ary1, 10) == 18 );
+    Test( SumMultiples(ary2, 10) == 5 );
+    Test( SumMultiples(ary3, 10) == 23 );
+    Test( SumMultiples(ary3, 1000) == 233168 );
     return 0;
 }
